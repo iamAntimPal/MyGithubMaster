@@ -1,4 +1,5 @@
 
+![Lines of Code](https://gist.githubusercontent.com/iamAntimPal/549db21ce1afaffa48994d7500d3d80b/raw/lines.svg)
 
 
 <!-- Banner Section-->
