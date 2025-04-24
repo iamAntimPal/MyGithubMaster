@@ -1,0 +1,67 @@
+# workflow  for repository information 2
+
+
+```yml
+# .github/workflows/repository-metrics.yml
+name: Repository Metrics
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 0 * * *'      # daily at midnight UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  generate-repo-metrics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get remove -y containerd containerd.io || true
+          sudo apt-get autoremove -y || true
+          sudo apt-get clean
+          sudo apt-get install -y docker.io jq
+          sudo systemctl start docker
+          sudo systemctl enable docker
+
+      - name: Generate repository metrics SVG
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.repositories.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_repositories: yes
+          plugin_repositories_featured: iamAntimPal/MyGithubMaster
+          plugin_repositories_limit: 5
+
+      - name: Check generated file
+        run: |
+          echo "Generated files in the workspace:"
+          ls -lah
+          if [ ! -f metrics.plugin.repositories.svg ]; then
+            echo "❌ ERROR: SVG file not found! Metrics generation may have failed."
+            exit 1
+          fi
+
+      - name: Commit and push metrics SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add metrics.plugin.repositories.svg
+          git commit -m "chore: update repository metrics"
+          git push origin HEAD:main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
