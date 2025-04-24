@@ -21,15 +21,19 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install dependencies
+      - name: Install Docker and jq
         run: |
           sudo apt-get update
           sudo apt-get remove -y containerd containerd.io || true
           sudo apt-get autoremove -y || true
-          sudo apt-get clean
           sudo apt-get install -y docker.io jq
-          sudo systemctl start docker
           sudo systemctl enable docker
+          sudo systemctl start docker
+          docker --version
+          jq --version
+
+      - name: Create assets folder
+        run: mkdir -p assets
 
       - name: Generate repository metrics SVG
         uses: lowlighter/metrics@latest
@@ -40,21 +44,23 @@ jobs:
           plugin_repositories: yes
           plugin_repositories_featured: iamAntimPal/MyGithubMaster
           plugin_repositories_limit: 5
+          debug: yes
 
-      - name: Check generated file
+      - name: Verify metrics SVG was created
         run: |
-          echo "Generated files in the workspace:"
-          ls -lah
-          if [ ! -f metrics.plugin.repositories.svg ]; then
-            echo "❌ ERROR: SVG file not found! Metrics generation may have failed."
+          echo "Listing files in assets/"
+          ls -lh assets || true
+          if [ ! -f assets/metrics.plugin.repositories.svg ]; then
+            echo "❌ ERROR: SVG not found. Metrics generation might have failed."
             exit 1
           fi
 
       - name: Commit and push metrics SVG
+        if: success() && github.ref == 'refs/heads/main'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add metrics.plugin.repositories.svg
+          git add assets/metrics.plugin.repositories.svg
           git commit -m "chore: update repository metrics"
           git push origin HEAD:main
         env:
