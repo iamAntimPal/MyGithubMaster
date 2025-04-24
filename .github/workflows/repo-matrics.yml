@@ -34,7 +34,7 @@ jobs:
       - name: Generate repository metrics SVG
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.repositories.svg
+          filename: assets/metrics.plugin.repositories.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_repositories: yes
