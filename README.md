@@ -8,7 +8,7 @@
 
 
 
- ![Repository Metrics](metrics.plugin.repositories.svg)
+
 
 <!--
 <h1 align="center">
