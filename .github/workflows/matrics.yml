@@ -30,24 +30,24 @@ jobs:
           sudo apt-get install -y jq
 
       # 3️⃣ Medias
-      - name: 🦑 Medias
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
-        with:
-          filename: medias.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          config_order: anilist, music
-          output_action: gist
-          committer_gist: ${{ secrets.GIST }}
-          plugin_anilist: yes
-          plugin_anilist_medias: anime
-          plugin_anilist_sections: favorites, characters
-          plugin_anilist_limit: 2
-          plugin_anilist_limit_characters: 22
-          plugin_music: yes
-          plugin_music_playlist: ${{ secrets.PLAYLIST }}
-          plugin_music_limit: 9
+      # - name: 🦑 Medias
+      #   if: ${{ success() || failure() }}
+      #   uses: lowlighter/metrics@latest
+      #   with:
+      #     filename: medias.svg
+      #     token: ${{ secrets.METRICS_TOKEN }}
+      #     base: ""
+      #     config_order: anilist, music
+      #     output_action: gist
+      #     committer_gist: ${{ secrets.GIST }}
+      #     plugin_anilist: yes
+      #     plugin_anilist_medias: anime
+      #     plugin_anilist_sections: favorites, characters
+      #     plugin_anilist_limit: 2
+      #     plugin_anilist_limit_characters: 22
+      #     plugin_music: yes
+      #     plugin_music_playlist: ${{ secrets.PLAYLIST }}
+      #     plugin_music_limit: 9
 
       # 4️⃣ Achievements
       - name: 🦑 Achievements
@@ -92,11 +92,11 @@ jobs:
           committer_gist: ${{ secrets.GIST }}
           plugin_isocalendar: yes
           plugin_languages: yes
-          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot, vue, scala, c, c++, python, ejs
+          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot, vue, scala, c, c++, ejs
           plugin_languages_details: lines, bytes-size, percentage
           plugin_languages_sections: most-used, recently-used
           plugin_languages_indepth: yes
-          plugin_languages_limit: 5
+          plugin_languages_limit: 6
           plugin_topics: yes
           plugin_topics_limit: 0
           plugin_topics_mode: icons
@@ -138,7 +138,7 @@ jobs:
           # skip any repos you don’t want included:
           plugin_lines_skipped: testing, The-Futurists_Manthan_Frontend
           # limit the breakdown to top 10 repos:
-          plugin_lines_repositories_limit: 10
+          plugin_lines_repositories_limit: 50
 
       # 9️⃣ Commit & push all SVG updates to a PR
       - name: 🦑 Commit & Create PR
