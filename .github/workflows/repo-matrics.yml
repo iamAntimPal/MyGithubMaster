@@ -1,6 +1,4 @@
 # .github/workflows/repository-metrics.yml
-# Generates a repositories infographics SVG for iamAntimPal/MyGithubMaster
-
 name: Repository Metrics
 on:
   push:
