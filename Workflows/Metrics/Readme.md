@@ -1,0 +1,156 @@
+# All Workflows
+
+## Metrics workfolw 
+
+```yml
+# .github/workflows/metrics.yml
+name: Metrics
+on:
+  # Daily at 16:00 UTC
+  schedule:
+    - cron: "0 16 * * *"
+  # Manual trigger from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write     # to push updates / create PRs
+  actions: read       # to run actions
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ Checkout your profile repo
+      - name: 🦑 Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      # 2️⃣ Install jq (required by lowlighter/metrics)
+      - name: 🦑 Install jq
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+
+      # 3️⃣ Medias
+      # - name: 🦑 Medias
+      #   if: ${{ success() || failure() }}
+      #   uses: lowlighter/metrics@latest
+      #   with:
+      #     filename: medias.svg
+      #     token: ${{ secrets.METRICS_TOKEN }}
+      #     base: ""
+      #     config_order: anilist, music
+      #     output_action: gist
+      #     committer_gist: ${{ secrets.GIST }}
+      #     plugin_anilist: yes
+      #     plugin_anilist_medias: anime
+      #     plugin_anilist_sections: favorites, characters
+      #     plugin_anilist_limit: 2
+      #     plugin_anilist_limit_characters: 22
+      #     plugin_music: yes
+      #     plugin_music_playlist: ${{ secrets.PLAYLIST }}
+      #     plugin_music_limit: 9
+
+      # 4️⃣ Achievements
+      - name: 🦑 Achievements
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          output_action: gist
+          committer_gist: ${{ secrets.GIST }}
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_fortune: yes
+
+      # 5️⃣ Sponsors
+      - name: 🦑 Sponsors
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: sponsors.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          output_action: gist
+          committer_gist: ${{ secrets.GIST }}
+          plugin_sponsors: yes
+          plugin_sponsors_past: yes
+          plugin_sponsorships: yes
+          plugin_sponsorships_sections: amount
+
+      # 6️⃣ General
+      - name: 🦑 General
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: general.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: header
+          base_indepth: yes
+          config_order: base.header, isocalendar, languages, notable, discussions, topics
+          output_action: gist
+          committer_gist: ${{ secrets.GIST }}
+          plugin_isocalendar: yes
+          plugin_languages: yes
+          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot, vue, scala, c, c++, ejs
+          plugin_languages_details: lines, bytes-size, percentage
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_indepth: yes
+          plugin_languages_limit: 6
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: icons
+          plugin_notable: yes
+          plugin_discussions: yes
+
+      # 7️⃣ Splatoon
+      - name: 🦑 Splatoon
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: splatoon.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          output_action: gist
+          committer_gist: ${{ secrets.GIST }}
+          plugin_splatoon: yes
+          plugin_splatoon_token: ${{ secrets.SPLATOON_TOKEN }}
+          plugin_splatoon_statink: yes
+          plugin_splatoon_statink_token: ${{ secrets.SPLATOON_STATINK_TOKEN }}
+          plugin_splatoon_sections: salmon-run
+          plugin_splatoon_salmon_limit: 2
+          extras_css: |
+            h2 { display: none !important; }
+            .match:not(:last-child) { padding-bottom: 4px; }
+
+      # 8️⃣ **NEW** Lines of Code Changed
+      - name: 🐙 Lines of Code Changed
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: lines.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: header, repositories
+          output_action: gist
+          committer_gist: ${{ secrets.GIST }}
+          plugin_lines: yes
+          plugin_lines_sections: base, repositories
+          # skip any repos you don’t want included:
+          plugin_lines_skipped: testing, The-Futurists_Manthan_Frontend
+          # limit the breakdown to top 10 repos:
+          plugin_lines_repositories_limit: 50
+
+      # 9️⃣ Commit & push all SVG updates to a PR
+      - name: 🦑 Commit & Create PR
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          branch: metrics-update
+          title: "chore: update all metrics SVGs"
+          body: "Auto-generated metrics via lowlighter/metrics"
+```
