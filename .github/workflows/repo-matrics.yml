@@ -8,8 +8,8 @@ on:
   workflow_dispatch: {}      # manual trigger
 
 permissions:
-  contents: write            # allow committing back to the repo
-  actions: read              # allow running actions
+  contents: write
+  actions: read
 
 jobs:
   generate-repo-metrics:
@@ -24,17 +24,20 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y jq docker.io
+          sudo apt-get remove -y containerd containerd.io || true
+          sudo apt-get autoremove -y || true
+          sudo apt-get clean
+          sudo apt-get install -y docker.io jq
 
       - name: Generate repository metrics SVG
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.repositories.svg
-          token: ${{ secrets.METRICS_TOKEN }}       # PAT with gist/repo scope
-          base: ""                                # omit header
-          plugin_repositories: yes                 # enable repositories plugin
-          plugin_repositories_featured: iamAntimPal/MyGithubMaster  # focus on this repo
-          plugin_repositories_limit: 5             # show up to 5 repos (if desired)
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_repositories: yes
+          plugin_repositories_featured: iamAntimPal/MyGithubMaster
+          plugin_repositories_limit: 5
 
       - name: Commit and push metrics SVG
         run: |
