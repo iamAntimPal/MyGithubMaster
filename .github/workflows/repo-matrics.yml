@@ -8,7 +8,7 @@ on:
   workflow_dispatch: {}
 
 permissions:
-  contents: write
+  contents: read
   actions: read
 
 jobs:
@@ -18,8 +18,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Install Docker and jq
         run: |
@@ -29,39 +27,16 @@ jobs:
           sudo apt-get install -y docker.io jq
           sudo systemctl enable docker
           sudo systemctl start docker
-          docker --version
-          jq --version
 
-      - name: Create assets folder
-        run: mkdir -p assets
-
-      - name: Generate repository metrics SVG
+      - name: Generate metrics and upload to Gist
         uses: lowlighter/metrics@latest
         with:
-          filename: assets/metrics.plugin.repositories.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GIST }}  # Must have Gist scope
+          filename: metrics.plugin.repositories.svg
+          output_action: gist
+          gist: 549db21ce1afaffa48994d7500d3d80b
           base: ""
           plugin_repositories: yes
           plugin_repositories_featured: iamAntimPal/MyGithubMaster
           plugin_repositories_limit: 5
           debug: yes
-
-      - name: Verify metrics SVG was created
-        run: |
-          echo "Listing files in assets/"
-          ls -lh assets || true
-          if [ ! -f assets/metrics.plugin.repositories.svg ]; then
-            echo "❌ ERROR: SVG not found. Metrics generation might have failed."
-            exit 1
-          fi
-
-      - name: Commit and push metrics SVG
-        if: success() && github.ref == 'refs/heads/main'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/metrics.plugin.repositories.svg
-          git commit -m "chore: update repository metrics"
-          git push origin HEAD:main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
