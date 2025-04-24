@@ -63,20 +63,7 @@ jobs:
           plugin_achievements_display: compact
           plugin_fortune: yes
 
-      # LeetCode 
-      - name: 📊 Generate LeetCode Metrics
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
-        with:
-          filename: leetcode.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          output_action: gist
-          committer_gist: ${{ secrets.GIST }}
-          plugin_leetcode: yes
-          plugin_leetcode_user: antim_pal
-          plugin_leetcode_sections: solved, skills, recent
-          config_timezone: Asia/Kolkata
+
 
       # 5️⃣ Sponsors
       - name: 🦑 Sponsors
@@ -154,6 +141,21 @@ jobs:
           plugin_lines_skipped: testing, The-Futurists_Manthan_Frontend
           # limit the breakdown to top 10 repos:
           plugin_lines_repositories_limit: 50
+          
+      # 9️⃣ LeetCode 
+      - name: 📊 Generate LeetCode Metrics
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: leetcode.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          output_action: gist
+          committer_gist: ${{ secrets.GIST }}
+          plugin_leetcode: yes
+          plugin_leetcode_user: antim_pal
+          plugin_leetcode_sections: solved, skills, recent
+          config_timezone: Asia/Kolkata
 
       # 9️⃣ Commit & push all SVG updates to a PR
       - name: 🦑 Commit & Create PR
