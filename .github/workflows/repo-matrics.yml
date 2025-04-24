@@ -5,7 +5,7 @@ on:
     branches: [ main ]
   schedule:
     - cron: '0 0 * * *'      # daily at midnight UTC
-  workflow_dispatch: {}      # manual trigger
+  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -28,6 +28,8 @@ jobs:
           sudo apt-get autoremove -y || true
           sudo apt-get clean
           sudo apt-get install -y docker.io jq
+          sudo systemctl start docker
+          sudo systemctl enable docker
 
       - name: Generate repository metrics SVG
         uses: lowlighter/metrics@latest
@@ -38,6 +40,15 @@ jobs:
           plugin_repositories: yes
           plugin_repositories_featured: iamAntimPal/MyGithubMaster
           plugin_repositories_limit: 5
+
+      - name: Check generated file
+        run: |
+          echo "Generated files in the workspace:"
+          ls -lah
+          if [ ! -f metrics.plugin.repositories.svg ]; then
+            echo "❌ ERROR: SVG file not found! Metrics generation may have failed."
+            exit 1
+          fi
 
       - name: Commit and push metrics SVG
         run: |
