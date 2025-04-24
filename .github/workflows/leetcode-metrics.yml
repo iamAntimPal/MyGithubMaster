@@ -19,12 +19,26 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Validate PAT for Gist
+        run: |
+          echo "🔒 Validating GIST token..."
+          if ! curl -s -H "Authorization: token ${{ secrets.GIST }}" https://api.github.com/gists > /dev/null; then
+            echo "::error::❌ Invalid or missing GIST token. Please check your repo secrets."
+            exit 1
+          fi
+
       - name: Install Docker and jq
         run: |
+          set -e
           sudo apt-get update
           sudo apt-get remove -y containerd containerd.io || true
-          sudo apt-get autoremove -y || true
-          sudo apt-get install -y docker.io jq
+          sudo apt-get install -y apt-transport-https ca-certificates curl gnupg lsb-release jq
+          curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+          echo \
+            "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+            $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+          sudo apt-get update
+          sudo apt-get install -y docker-ce docker-ce-cli containerd.io
           sudo systemctl enable docker
           sudo systemctl start docker
           docker --version
@@ -33,7 +47,7 @@ jobs:
       - name: Generate LeetCode metrics and upload to Gist
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GIST }}  # Your PAT stored as a secret named GIST
+          token: ${{ secrets.GIST }}
           committer_token: ${{ secrets.GIST }}
           committer_gist: 1c22864dc3cb5967c03b4e2cd4239284
 
