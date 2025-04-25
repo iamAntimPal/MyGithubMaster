@@ -203,5 +203,93 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
   </tr>
 </table>
 
-<!--- --->
+<!--- 7. Projects --->
+
+
+# Projects <img src="https://user-images.githubusercontent.com/74038190/221857969-f37e1717-1470-4fe4-abb5-88b334cf64ea.png" alt="icon of todo list" width="40" />
+
+> Find all of my projects at [antimpal.com/projects](https://github.com/iamAntimPal?tab=projects) with timeline, tech stack and necessary links.
+
+&nbsp;
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Projects</th>
+      <th>Deployed Link</th>
+      <th>Repository</th>
+      <th>Tech Stack & Tools</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>DevtoGitHub</strong></td>
+      <td><a href="https://github.com/marketplace/actions/devtogithub" target="_blank">Marketplace</a></td>
+      <td><a href="https://github.com/Anmol-Baranwal/DevtoGitHub" target="_blank">view</a></td>
+      <td><code>TypeScript</code> <code>GitHub Actions</code> <code>Forem API</code> <code>Postman</code></td>
+    </tr>
+    <tr>
+      <td><strong>Handle Multiple Issues</strong></td>
+      <td><a href="https://github.com/marketplace/actions/handle-multiple-issues" target="_blank">Marketplace</a></td>
+      <td><a href="https://github.com/Anmol-Baranwal/handle-multiple-issues" target="_blank">view</a></td>
+      <td><code>TypeScript</code> <code>GitHub Actions</code> <code>GitHub API</code></td>
+    </tr>
+    <tr>
+      <td><strong>Designlyfe</strong></td>
+      <td><a href="https://www.designlyfe.tech/" target="_blank">view</a></td>
+      <td>-</td>
+      <td><code>Next.js</code> <code>TypeScript</code> <code>React</code> <code>Firebase</code> <code>Tailwind CSS</code> <code>Simple Analytics</code> <code>Pageclip</code> <code>Postman</code></td>
+    </tr>
+    <tr>
+      <td><strong>Audily (Hackathon-24hr)</strong></td>
+      <td><a href="https://audily-ai.vercel.app/" target="_blank">view</a></td>
+      <td><a href="https://github.com/Builders-Valley/Audily-AI" target="_blank">view</a></td>
+      <td><code>Next.js</code> <code>TypeScript</code> <code>Tailwind</code> <code>Node.js</code> <code>Express</code> <code>Gemini</code> <code>Deepgram Aura API</code> <code>Postman</code></td>
+    </tr>
+    <tr>
+      <td><strong>Arcjet Demo</strong></td>
+      <td><a href="https://arcjet-demo.vercel.app/" target="_blank">view</a></td>
+      <td><a href="https://github.com/Anmol-Baranwal/arcjet-demo" target="_blank">view</a></td>
+      <td><code>Next.js</code> <code>TypeScript</code> <code>Tailwind CSS</code> <code>Arcjet JS SDK</code></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<!--- 8. Github Metrics --->
+<h1><img src="https://github.githubassets.com/images/spinners/octocat-spinner-128.gif" width="25" height="25"> My Github Stats: </h1>
+<details>
+<summary>Expend</summary> 
+
+<!-- Adiding-->
+
+
+</details> 
+
+
+
+
+
+
+<!--- 9. Social Links --->
+
+
+
+
+
+
+
+
+
+<!--- 10. --->
+
+
+
+
+
+
+
+
 
