@@ -246,7 +246,7 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
       <td><strong>Hotal Management System</strong></td>
       <td><a href="https://github.com/iamAntimPal/Hotel-Management" target="_blank">App</a></td>
       <td><a href="https://github.com/iamAntimPal/Hotel-Management" target="_blank">view</a></td>
-      <td><code>Python</code> <code>Tkinter</code> <code>NumPy</code> <code>Pandas</code> <code>Requests</code> <code>OOPS(Object-Oriented-Programming)</code> <code>Python API</code> <code>PIL(Image TK)</code></td>
+      <td><code>Python</code> <code>Tkinter</code> <code>MySQL</code> <code>Pandas</code> <code>Requests</code> <code>OOPS(Object-Oriented-Programming)</code> <code>Python API</code> <code>PIL(Image TK)</code></td>
     </tr>
 <!--     <tr>
       <td><strong>Arcjet Demo</strong></td>
