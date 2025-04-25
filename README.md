@@ -326,43 +326,178 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 
 <!--- 9. Social Links --->
 
+# <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" alt="Fire" width="40" /> My socials
 
+> I've been active across various platforms, whether it's for learning, creating content, trying the platform, or sharing my progress. I've tried a lot of stuff which is why I have a good knowledge of various domains. You can find all the social links at [antimpal.com/links](https://github.com/iamAntimPal/).
 
+<br>
 
-
-
-
-
+<div align="center">
+  <a href="https://app.daily.dev/anmolbaranwal"><img src="https://img.shields.io/badge/dailydotdev-d5d5d5?style=for-the-badge&logo=dailydotdev&logoColor=0A0209" /></a>
+  <br>
+  <a href="https://www.polywork.com/anmolbaranwal"><img src="https://img.shields.io/badge/polywork-0A0209?style=for-the-badge&logo=polywork&logoColor=d5d5d5" ></a>
+  <a href="https://peerlist.io/anmolbaranwal"><img src="https://img.shields.io/badge/peerlist-0A0209?style=for-the-badge&logo=peerlist&logoColor=d5d5d5" ></a>
+  <br>
+  <a href="https://www.producthunt.com/@anmol-baranwal"><img src="https://img.shields.io/badge/Product%20Hunt-d5d5d5?style=for-the-badge&logo=Product%20Hunt&logoColor=0A0209" /></a>
+  <a href="https://devpost.com/Anmol-Baranwal"><img src="https://img.shields.io/badge/Devpost-d5d5d5?style=for-the-badge&logo=Devpost&logoColor=0A0209" /></a> 
+  <a href="https://www.showwcase.com/anmol-baranwal"><img src="https://img.shields.io/badge/showwcase-d5d5d5?style=for-the-badge&logo=showwcase&logoColor=0A0209" ></a>
+  <br>
+  <a href="https://leetcode.com/anmol4coder/"><img src="https://img.shields.io/badge/-LeetCode-0A0209?style=for-the-badge&logo=LeetCode&logoColor=d5d5d5"/></a>
+  <a href="https://auth.geeksforgeeks.org/user/anmolbaranwal119"><img src="https://img.shields.io/badge/GeeksforGeeks-0A0209?style=for-the-badge&logo=geeksforgeeks&logoColor=d5d5d5"/></a>
+  <a href="https://www.coursera.org/user/69e4ae79233b116200019fb3f9111083"><img src="https://img.shields.io/badge/Coursera-0A0209?style=for-the-badge&logo=Coursera&logoColor=d5d5d5" /></a>
+  <a href="https://www.codecademy.com/profiles/AnmolBaranwal"><img src="https://img.shields.io/badge/Codecademy-0A0209?style=for-the-badge&logo=codecademy&logoColor=d5d5d5" /></a> 
+  <br> 
+  <a href="https://dev.to/anmolbaranwal"><img src="https://img.shields.io/badge/dev.to-d5d5d5?style=for-the-badge&logo=devdotto&logoColor=0A0209"/></a>
+  <a href="https://www.linkedin.com/in/Anmol-Baranwal/"><img src="https://img.shields.io/badge/LinkedIn-d5d5d5?style=for-the-badge&logo=linkedin&logoColor=0A0209"/></a>
+  <a href="mailto:hi@anmolbaranwal.com"><img src="https://img.shields.io/badge/Gmail-d5d5d5?style=for-the-badge&logo=gmail&logoColor=0A0209" /></a>
+  <a href="https://discordapp.com/users/776749637826117640"><img src="https://img.shields.io/badge/Discord-d5d5d5?style=for-the-badge&logo=discord&logoColor=0A0209" alt="Anmol#7140" >
+  <a href="https://dribbble.com/Anmol-Baranwal/"><img src="https://img.shields.io/badge/Dribbble-d5d5d5?style=for-the-badge&logo=dribbble&logoColor=0A0209" /></a>
+  <a href="https://twitter.com/Anmol_Codes"><img src="https://img.shields.io/badge/Twitter-d5d5d5?style=for-the-badge&logo=x&logoColor=0A0209" alt="Anmol_Codes" ></a>
+  
+</div>
 
 <!--- 10. Sponsesers Section--->
 
+# <img src="https://user-images.githubusercontent.com/74038190/216112957-034e1f8b-5468-4857-8512-9cd2bac35bb6.png" alt="Handshake" width="40" /> Sponsor me 
 
+> I've made significant contributions to the open source ecosystem. Sponsoring me gives you access to exclusive benefits, such as a private Discord channel and more. Visit the [sponsors page](https://github.com/sponsors/iamAntimPal) for further details.
 
+<br>
 
-
-
-
-
+<a href=""><img src="https://img.shields.io/badge/sponsor-d5d5d5?style=for-the-badge&logo=GitHub-Sponsors&logoColor=0A0209" /></a>
 
 <!--- 11.Top Repository Section --->
 
+<h2>📌 Top Repositories</h2>
 
-
-
-
-
-
-
-
+<table border="0" align="center">
+  <tr>
+    <td>
+      <a href="https://github.com/iamAntimPal">
+        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=iamAntimPal&theme=dark" />
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/iamAntimPal/LeetCode-Python-Solutions">
+        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=LeetCode-Python-Solutions&theme=dark" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/iamAntimPal/MSWord-Learning-Hub">
+        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=MSWord-Learning-Hub&theme=dark" />
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/iamAntimPal/LeetCode_SQL_Database">
+        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=LeetCode_SQL_Database&theme=dark" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 <!--- 12. Get My Code Section --->
 
+<h2>📈 My Code Activity Summary</h2>
+<details>
+  <summary>Expend</summary>
+<table>
+  <tr>
+    <td>
+      <h3>🌅 I'm an Early 🐤</h3>
+      <pre>
+🌞 Morning   1690 commits   ████████░░░░░░░   32.94%
+🌆 Daytime   2078 commits   ██████████░░░░░░   40.51%
+🌃 Evening   869 commits    ████░░░░░░░░░░░░   16.94%
+🌙 Night     493 commits    ██░░░░░░░░░░░░░░   09.61%
+      </pre>
+    </td>
+    <td>
+      <h3>📅 Most Productive on Sunday</h3>
+      <pre>
+Monday      904 commits   ████░░░░░░░░░░░░   17.62%
+Tuesday     1332 commits  ██████░░░░░░░░░░   25.96%
+Wednesday   1042 commits  █████░░░░░░░░░░░   20.31%
+Thursday    328 commits   ██░░░░░░░░░░░░░░   06.39%
+Friday      300 commits   █░░░░░░░░░░░░░░░   05.85%
+Saturday    435 commits   ██░░░░░░░░░░░░░░   08.48%
+Sunday      789 commits   ████░░░░░░░░░░░░   15.38%
+      </pre>
+    </td>
+  </tr>
 
+  <tr>
+    <td>
+      <h3>🕒 Time Spent This Week</h3>
+      <pre>
+🕑 Time Zone: Asia/Kolkata
 
+💬 Languages:
+Python        16h 10m  ████████████████   80.11%
+CSS            2h 03m  ████░░░░░░░░░░░░   10.19%
+C++            1h 19m  ██░░░░░░░░░░░░░░   06.53%
+YAML           14m     ░░░░░░░░░░░░░░░   01.22%
+Other           9m     ░░░░░░░░░░░░░░░   00.76%
+      </pre>
+    </td>
+    <td>
+      <h3>🧰 Editors & OS</h3>
+      <pre>
+🔥 Editors:
+VS Code          20h 11m   ██████████████   82.00%
+Jupyter Notebook  2h 09m   ████░░░░░░░░░░   18.00%
 
+💻 OS:
+Windows         50h 11m   ████████████████████   100.00%
+      </pre>
+    </td>
+  </tr>
 
-
-
+  <tr>
+    <td colspan="2">
+      <h3>💻 I Mostly Code in Python</h3>
+      <pre>
+Python    35 repos   ███████████░░░░░░░░░   45.65%
+HTML       8 repos   ████░░░░░░░░░░░░░░░   17.39%
+CSS        4 repos   ██░░░░░░░░░░░░░░░░░   08.70%
+SQL        3 repos   ██░░░░░░░░░░░░░░░░░   06.52%
+Pandas     1 repo    █░░░░░░░░░░░░░░░░░░   02.17%
+      </pre>
+    </td>
+  </tr>
+</table>
+</details>
 
 
 <!--- Footer Section  --->
+
+<!-- Snake Game -->
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/iamAntimPal/iamAntimPal/output/github-snake.svg" />
+</picture>
+</div>
+<!-- Visiter count -->
+<div align="center" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+  <h3>Visitor Count</h3>
+  <img src="https://profile-counter.glitch.me/iamAntimPal/count.svg"alt="Profile Visitor Count" />
+</div>
+
+<!-- Keep Learing Banner -->
+
+<p align="center">
+<a href="https://github.com/JurojinKun?tab=repositories">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FFFF00&center=true&vCenter=true&width=500&height=30&lines=%F0%9F%92%BB+Developer+in+the+IT+World+%F0%9F%92%BB;%F0%9F%92%BB+Always+learning+new+Things+%F0%9F%92%BB;%F0%9F%92%BB+Keep+Calm+and+Code+On+%F0%9F%92%BB;%F0%9F%92%BB+Passionate+about+Code+%F0%9F%92%BB" alt="Typing SVG" />
+</a>
+</p>
+
+<!-- Profile End -->
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
+<img height="80" alt="Thanks for visiting me" width="100%" src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/marquee.svg" />
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer&width=100"/>
+</p>
