@@ -230,30 +230,30 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
       <td><a href="https://github.com/iamAntimPal/Github-Profile" target="_blank">view</a></td>
       <td><code>HTML</code> <code>CSS</code> <code>Javascript</code> <code>GitHub API</code></td>
     </tr>
-    <tr>
+<!--     <tr>
       <td><strong>Handle Multiple Issues</strong></td>
       <td><a href="https://github.com/marketplace/actions/handle-multiple-issues" target="_blank">Marketplace</a></td>
       <td><a href="https://github.com/Anmol-Baranwal/handle-multiple-issues" target="_blank">view</a></td>
       <td><code>TypeScript</code> <code>GitHub Actions</code> <code>GitHub API</code></td>
-    </tr>
+    </tr> -->
     <tr>
       <td><strong>Portfolio</strong></td>
-      <td><a href="https://www.designlyfe.tech/" target="_blank">view</a></td>
-      <td>-</td>
-      <td><code>Next.js</code> <code>TypeScript</code> <code>React</code> <code>Firebase</code> <code>Tailwind CSS</code> <code>Simple Analytics</code> <code>Pageclip</code> <code>Postman</code></td>
+      <td><a href="https://iamantimpal.github.io/Antim-Portfolio/" target="_blank">view</a></td>
+      <td><a href="https://iamantimpal.github.io/Antim-Portfolio/">view</a></td>
+      <td><code>HTML</code> <code>CSS</code> <code>JAvascript</code> <code>BootStrap</code> <code>Tailwind CSS</code> <code>Simple Analytics</code></td>
     </tr>
     <tr>
-      <td><strong>Audily (Hackathon-24hr)</strong></td>
-      <td><a href="https://audily-ai.vercel.app/" target="_blank">view</a></td>
-      <td><a href="https://github.com/Builders-Valley/Audily-AI" target="_blank">view</a></td>
-      <td><code>Next.js</code> <code>TypeScript</code> <code>Tailwind</code> <code>Node.js</code> <code>Express</code> <code>Gemini</code> <code>Deepgram Aura API</code> <code>Postman</code></td>
+      <td><strong>Hotal Management System</strong></td>
+      <td><a href="https://github.com/iamAntimPal/Hotel-Management" target="_blank">App</a></td>
+      <td><a href="https://github.com/iamAntimPal/Hotel-Management" target="_blank">view</a></td>
+      <td><code>Python</code> <code>Tkinter</code> <code>NumPy</code> <code>Pandas</code> <code>Requests</code> <code>OOPS(Object-Oriented-Programming)</code> <code>Python API</code> <code>PIL(Image TK)</code></td>
     </tr>
-    <tr>
+<!--     <tr>
       <td><strong>Arcjet Demo</strong></td>
       <td><a href="https://arcjet-demo.vercel.app/" target="_blank">view</a></td>
       <td><a href="https://github.com/Anmol-Baranwal/arcjet-demo" target="_blank">view</a></td>
       <td><code>Next.js</code> <code>TypeScript</code> <code>Tailwind CSS</code> <code>Arcjet JS SDK</code></td>
-    </tr>
+    </tr> -->
   </tbody>
 </table>
 
