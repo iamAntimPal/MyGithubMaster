@@ -224,10 +224,10 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
   </thead>
   <tbody>
     <tr>
-      <td><strong>DevtoGitHub</strong></td>
-      <td><a href="https://github.com/marketplace/actions/devtogithub" target="_blank">Marketplace</a></td>
-      <td><a href="https://github.com/Anmol-Baranwal/DevtoGitHub" target="_blank">view</a></td>
-      <td><code>TypeScript</code> <code>GitHub Actions</code> <code>Forem API</code> <code>Postman</code></td>
+      <td><strong>GitHub Profile</strong></td>
+      <td><a href="https://iamantimpal.github.io/Github-Profile/" target="_blank">View</a></td>
+      <td><a href="https://github.com/iamAntimPal/Github-Profile" target="_blank">view</a></td>
+      <td><code>HTML</code> <code>CSS</code> <code>Javascript</code> <code>GitHub API</code></td>
     </tr>
     <tr>
       <td><strong>Handle Multiple Issues</strong></td>
@@ -236,7 +236,7 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
       <td><code>TypeScript</code> <code>GitHub Actions</code> <code>GitHub API</code></td>
     </tr>
     <tr>
-      <td><strong>Designlyfe</strong></td>
+      <td><strong>Portfolio</strong></td>
       <td><a href="https://www.designlyfe.tech/" target="_blank">view</a></td>
       <td>-</td>
       <td><code>Next.js</code> <code>TypeScript</code> <code>React</code> <code>Firebase</code> <code>Tailwind CSS</code> <code>Simple Analytics</code> <code>Pageclip</code> <code>Postman</code></td>
