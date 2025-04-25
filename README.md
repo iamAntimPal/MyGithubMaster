@@ -213,7 +213,7 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 &nbsp;
 
 
-<table>
+<table bgcolor="black">
   <thead>
     <tr>
       <th>Projects</th>
@@ -264,14 +264,65 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 <summary>Expend</summary> 
 
 <!-- Adiding-->
+<table border="1">
+  <tr>
+    <th>Base</th>
+    <th>Reactions</th>
+  </tr>
+  <tr>
+    <td><img src="https://gist.githubusercontent.com/iamAntimPal/a109f4a19e3df1501c6331be75a06cea/raw/base.svg" alt="Achievements"></td>
+    <td><img src="https://gist.githubusercontent.com/iamAntimPal/a109f4a19e3df1501c6331be75a06cea/raw/followup.svg" alt="Reactions"></td>
+  </tr>
+  <tr>
+    <th>Languages</th>
+    <th>Discussions</th>
+  </tr>
+  <tr>
+    <td rowspan="2"><img src="https://gist.githubusercontent.com/iamAntimPal/a109f4a19e3df1501c6331be75a06cea/raw/languages.svg" alt="Followup"></td>
+    <td><img src="https://gist.githubusercontent.com/iamAntimPal/a109f4a19e3df1501c6331be75a06cea/raw/discussions.svg" alt="Discussions"></td>
+  </tr>
+  <tr>
+    <td><img src="https://gist.githubusercontent.com/iamAntimPal/a109f4a19e3df1501c6331be75a06cea/raw/Reactions.svg" alt="Reaction"></td>
+  </tr>
+  <tr>
+    <th>Leetcode</th>
+    <th>Code</th>
+  </tr>
+  <tr>
+    <td rowspan="2"><img src="https://gist.githubusercontent.com/iamAntimPal/a109f4a19e3df1501c6331be75a06cea/raw/leetcode.svg" alt="LeetCode"></td>
+     <td><img src="https://gist.githubusercontent.com/iamAntimPal/a109f4a19e3df1501c6331be75a06cea/raw/code.svg" alt="Code"></td>
+  </tr>
+   <tr>
+      <td><img src="https://gist.githubusercontent.com/iamAntimPal/a109f4a19e3df1501c6331be75a06cea/raw/lines.svg" alt="line of code"></td>
+  </tr>
+  </tr>
+  <tr>
+    <th colspan="2" align="center">🏆 GitHub Trophies</th>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="https://github-profile-trophy.vercel.app/?username=iamAntimPal&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="achivement"</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/iamAntimPal#gh-dark-mode-only">
+        <img height="259" width="auto" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=iamAntimPal&show_icons=true&line_height=28&border=true&card_width=347&include_all_commits=true&role=owner,collaborator&show=reviews,discussions_answered&rank_icon=percentile&exclude_repo=github-readme-stats&theme=dark&text_color=daf7dc&bg_color=151515#gh-dark-mode-only" alt="Antim Pal's Github stats" />
+      </a>
+    </td>
+    <td>
+      <img height="200" src="https://nirzak-streak-stats.vercel.app/?user=iamAntimPal&theme=dark" alt="GitHub Streak" />
+    </td>
+  </tr>
+</table>
+<table>
+  <tr>
+      <td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamAntimPal&layout=compact&text_color=daf7dc&bg_color=151515" alt="Top Languages" /></td>
+      <td><img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=iamAntimPal&theme=radical" alt="Repos Per Language" /></td>
+      <td><img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=iamAntimPal&theme=radical" alt="Most Commit Language" /></td>
+  </tr>
+</table>
 
 
 </details> 
-
-
-
-
-
 
 <!--- 9. Social Links --->
 
@@ -283,7 +334,7 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 
 
 
-<!--- 10. --->
+<!--- 10. Sponsesers Section--->
 
 
 
@@ -293,3 +344,25 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 
 
 
+<!--- 11.Top Repository Section --->
+
+
+
+
+
+
+
+
+
+
+<!--- 12. Get My Code Section --->
+
+
+
+
+
+
+
+
+
+<!--- Footer Section  --->
