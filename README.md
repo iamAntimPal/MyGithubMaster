@@ -300,6 +300,18 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
     <th colspan="2" align="center">🏆 GitHub Trophies</th>
   </tr>
   <tr>
+    <td colspan="2"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iamAntimPal&theme=radical&width=200px" width="1000px" height="auto" alt="year data"></td>
+  </tr>
+   <tr>
+    <th colspan="2" align="center">🏆 GitHub Trophies</th>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="https://github-readme-activity-graph.vercel.app/graph?username=iamAntimPal&bg_color=1a1b27&color=91bfff&line=628fdb&point=8a87f0&area=true&hide_border=true&radius=10" alt="Month-graph"</td>
+  </tr>
+  <tr>
+    <th colspan="2" align="center">🏆 GitHub Trophies</th>
+  </tr>
+  <tr>
     <td colspan="2"><img src="https://github-profile-trophy.vercel.app/?username=iamAntimPal&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="achivement"</td>
   </tr>
   <tr>
