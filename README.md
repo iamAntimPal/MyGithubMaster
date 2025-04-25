@@ -21,7 +21,7 @@
 <!-- 2. Banner Section -->
 
  <div align="center">
- <img align="center" witdh="auto" src="./assets/welcome-header.gif">
+ <img align="center" witdh="auto" src="https://github.com/Anmol-Baranwal/Anmol-Baranwal/assets/74038190/fe054170-c69a-41d2-8e73-f7f239ebc046">
  </div>
 
  <!--- 3. Working profile section --->
