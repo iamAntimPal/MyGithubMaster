@@ -1,3 +1,4 @@
+```yml
 name: Github_Metrics
 
 on:
@@ -206,3 +207,4 @@ jobs:
           git add SVG/*.svg
           git commit -m "🔄 Update metrics SVGs"
           git push origin main
+```
