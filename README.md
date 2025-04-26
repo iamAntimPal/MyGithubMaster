@@ -382,33 +382,23 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 <!--- 11.Top Repository Section --->
 
 <h2>📌 Top Repositories</h2>
+ 
+ <p align="center">
+ <a href="https://github.com/iamAntimPal">
+   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=iamAntimPal&theme=dark" />
+ </a>
+<a href="https://github.com/iamAntimPal/LeetCode-Python-Solutions">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=LeetCode-Python-Solutions&theme=dark" />
+</a>
 
-<table border="0" align="center">
-  <tr>
-    <td>
-      <a href="https://github.com/iamAntimPal">
-        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=iamAntimPal&theme=dark" />
-      </a>
-    </td>
-    <td>
-      <a href="https://github.com/iamAntimPal/LeetCode-Python-Solutions">
-        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=LeetCode-Python-Solutions&theme=dark" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/iamAntimPal/MSWord-Learning-Hub">
-        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=MSWord-Learning-Hub&theme=dark" />
-      </a>
-    </td>
-    <td>
-      <a href="https://github.com/iamAntimPal/LeetCode_SQL_Database">
-        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=LeetCode_SQL_Database&theme=dark" />
-      </a>
-    </td>
-  </tr>
-</table>
+
+ <a href="https://github.com/iamAntimPal/MSWord-Learning-Hub">
+   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=TechInterviewMaster&theme=dark" />
+ </a>
+  <a href="https://github.com/iamAntimPal/LeetCode_SQL_Database">
+   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=iamAntimPal&repo=LeetCode_SQL_Database&theme=dark" />
+ </a>
+</p>
 
 <!--- 12. Get My Code Section --->
 
