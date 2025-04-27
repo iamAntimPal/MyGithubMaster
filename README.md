@@ -15,33 +15,58 @@
 </p>
 </blockquote>
 <div>
- <img src="https://gist.githubusercontent.com/iamAntimPal/a109f4a19e3df1501c6331be75a06cea/raw/code.svg" alt="Code Metrics" />
+<img src="https://gist.githubusercontent.com/iamAntimPal/a109f4a19e3df1501c6331be75a06cea/raw/code.svg" alt="Code Metrics" /> 
 </div>
 
 <!-- 2. Banner Section -->
 
- <div align="center">
- <img align="center" witdh="auto" src="https://github.com/Anmol-Baranwal/Anmol-Baranwal/assets/74038190/fe054170-c69a-41d2-8e73-f7f239ebc046">
- </div>
+<!--- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!--- -- Custom Designed Banner ---------------------------------------------------------------------------------------------------------------------------- -->
+<!--- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!--
+![Banner GitHub](https://github.com/Anmol-Baranwal/Anmol-Baranwal/assets/74038190/fe054170-c69a-41d2-8e73-f7f239ebc046)
+-->
+  <img src="https://github.com/iamAntimPal/iamAntimPal/blob/main/assets/github%20banner.png" alt="Github banner"/>
 
- <!--- 3. Working profile section --->
+<!--- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!--- -- Visitor Badge + Links ----------------------------------------------------------------------------------------------------------------------------- -->
+<!--- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 
- 
 <div align="center">
-<a href="#"> <img height="25" src="https://img.shields.io/github/followers/iamAntimPal?label=Follower&style=social" /></a>
-<a href="#"> <img height="25" src="https://img.shields.io/github/stars/iamAntimPal?label=Stars&style=social" /></a>
-<a href="https://www.youtube.com/@OptimismEducator"> <img height="25" src="https://img.shields.io/youtube/channel/views/UCNUqyKS4ku8veMMYxEqg-pg?label=Views&style=social" /></a>
-<a href="https://www.youtube.com/@OptimismEducator"> <img height="25" src="https://img.shields.io/youtube/channel/subscribers/UCNUqyKS4ku8veMMYxEqg-pg?label=subscribers&style=social" /></a>
+<!--   <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FiamAntimPal%2FiamAntimPal&label=VISITORS&labelColor=%23000&countColor=%230A0209" />
+  <br><br> -->
+<!--   <a href="https://www.showwcase.com/anmol-baranwal"><img src="https://github.com/Anmol-Baranwal/Anmol-Baranwal/assets/74038190/c9e3761a-08c6-404d-9e27-5cd9d1084773"/></a> -->
+  <a href="https://www.linkedin.com/in/antim-pal"><img src="https://img.shields.io/badge/LinkedIn-d5d5d5?style=for-the-badge&logo=linkedin&logoColor=0A0209" alt="profile of LinkedIn with username Antim Pal" /></a>
+<a href="https://dev.to/antim_pal"><img src="https://img.shields.io/badge/dev.to-d5d5d5?style=for-the-badge&logo=devdotto&logoColor=0A0209" alt="profile of Dev.to with username antim pal" /></a>
+<a href="https://iamantimpal.github.io/Antim-Portfolio/"><img src="https://img.shields.io/badge/portfolio-d5d5d5?style=for-the-badge&logo=Portfolio&logoColor=0A0209" alt="portfolio of Antim Pal" /></a>
+<a href="mailto:antimpl113@gmail.com"><img src="https://img.shields.io/badge/Gmail-d5d5d5?style=for-the-badge&logo=gmail&logoColor=0A0209" alt="email of Anmol i.e.   hi@anmolbaranwal.com" /></a>
+  <a href=""><img src="https://img.shields.io/badge/Twitter-d5d5d5?style=for-the-badge&logo=x&logoColor=0A0209" alt="profile of Twitter with username Antim_Codes" ></a>
 </div>
+<br>
+
+
+<!--- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!--- ------------------------------------------------------------------ About ME  ------------------------------------------------------------------------- -->
+<!--- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 
 <!-- 4. My Discription-->
 
-I'm passionate about creating robust, scalable applications and visually engaging designs. With a strong foundation in **Python**, I build high-performance solutions using modern web technologies like **HTML5**, **CSS3**, and **JavaScript**. I channel my creativity through graphic design, utilizing industry-standard tools like **Adobe Photoshop**, **Illustrator**, and **InDesign** to bring ideas to life.
+👋 Hi! I'm Antim Pal, I'm passionate about creating robust, scalable applications and visually engaging designs. With a strong foundation in **Python**.
 
-I'm also dedicated to sharing my knowledge. I teach students in areas such as graphic design, Python programming, web design, and data analytics, helping the next generation of creatives and technologists excel.
+✍ I build high-performance solutions using modern web technologies like **HTML5**, **CSS3**, **JavaScript** and **Python**. I channel my creativity through graphic design, utilizing industry-standard tools like **Adobe Photoshop**, **Illustrator**, and **InDesign** to bring ideas to life.
+
+🔖 I'm also dedicated to sharing my knowledge. I teach students in areas such as graphic design, Python programming, web design, and data analytics, helping the next generation of creatives and technologists excel.
+
+💜 I've spent around 2 years in open source. Contributed to 10+ open source projects, made 200+ Pull Requests, joined 50+ discussions and earned a lot of reputation. Love the ecosystem.
+
+I worked with NIELIT(National Institute of Electronics & Information Technology) as Traning Specilist and also worked with Sahyog Care for you(NGO) to Support Delhi Police.
+
+😎 By the way, Training Sepcilist wasn't the first thing I did. I've done Web designing, research, software development and much more.
+
+#### ***I code for fun and keep learning new stuff :)***
 
  <details>	
-    <summary><h1><b>📈 What I Do</b></h1></summary><br>
+    <summary><b>😆 More bragging about me.</b></summary><br>
 
 
 ## 🚀Software Development
@@ -65,6 +90,19 @@ I'm also dedicated to sharing my knowledge. I teach students in areas such as gr
 
 - **Development Tools:** Visual Studio Code, IntelliJ IDEA, Sublime Text, PowerBI  
 - **Teaching:** Educating students in Graphic Design, Python, Web Design, and Data Analytics
+</details>
+
+<details>
+  <summary><b>🏆 Achievements</b></summary>
+
+  💜 Competition Zone
+  - working on
+  - 
+  💜 GitHub Zone
+  - working on
+  - 
+  💜 Proud Zone
+  - working no
 </details>
 
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
