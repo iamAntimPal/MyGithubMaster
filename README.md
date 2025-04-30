@@ -95,6 +95,53 @@ I worked with NIELIT(National Institute of Electronics & Information Technology)
 <details>
   <summary><b>🏆 Achievements</b></summary>
 
+<h2>🧠 LeetCode Achievements</h2>
+
+<p>I'm actively solving problems on <a href="https://leetcode.com/u/antim_pal/">LeetCode</a> to strengthen my DSA, SQL, and data analysis skills. Here's a summary of my key milestones:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>🏅 Achievement</th>
+      <th>📝 Description</th>
+      <th>🧩 Profile</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>🏆 LeetCode 75 (Blind 75)</td>
+      <td>Mastered essential coding patterns for top tech interviews</td>
+      <td rowspan="7"><a href="https://leetcode.com/u/antim_pal/">
+          <img src="https://leetcard.jacoblin.cool/antim_pal?theme=dark&font=baloo&ext=heatmap" alt="LeetCode Stats">
+        </a></td>
+    </tr>
+    <tr>
+      <td>🧠 Top Interview Questions</td>
+      <td>Solved high-frequency, real-world coding problems</td>
+    </tr>
+    <tr>
+      <td>📊 SQL Top 50</td>
+      <td>Strengthened SQL query skills for data analysis</td>
+    </tr>
+    <tr>
+      <td>🐼 Introduction to Pandas</td>
+      <td>Gained foundational skills in Python's Pandas library</td>
+    </tr>
+    <tr>
+      <td>🏅 April 2025 Badge</td>
+      <td>Solved problems consistently throughout April</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>🔥 50 Days of LeetCode</td>
+      <td>Built a daily coding habit and enhanced consistency</td>
+    </tr>
+    
+  </tbody>
+</table>
+
+
+
   💜 Competition Zone
   - working on
   - 
